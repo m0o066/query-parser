@@ -1,0 +1,32 @@
+{
+  "name": "another-query-parser",
+  "version": "1.0.1",
+  "description": "Just another simple query parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-oscartong/query-parser.git"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "keywords": [
+    "search",
+    "hash",
+    "query",
+    "parse"
+  ],
+  "author": "Oscar Tong <moscartong@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
