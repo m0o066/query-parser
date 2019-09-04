@@ -1,6 +1,6 @@
 {
   "name": "another-query-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just another simple query parser",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "dist/**/*.js"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --declaration",
     "test": "jest",
     "prepublishOnly": "npm run test && npm run build"
   },
